@@ -11,7 +11,7 @@ def available():
 
 # Student Details
 def stud_details():
-    stu_name=input("\nEnter student name: ")
+    stu_name=input("\nEnter student name: ").lower()
     # Old user
     if stu_name in students.keys():
         print('Welcome back {}'.format(stu_name))
